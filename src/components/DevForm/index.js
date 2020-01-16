@@ -24,7 +24,7 @@ function DevForm({ onSubmit }) {
     )
   }, []);
 
-  async function handleSubmit(e) {
+  async function handleAddDev(e) {
     e.preventDefault();
 
     await onSubmit({
@@ -41,7 +41,7 @@ function DevForm({ onSubmit }) {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleAddDev}>
       <div className="input-block">
         <label htmlFor="github_username">Github username</label>
         <input 
