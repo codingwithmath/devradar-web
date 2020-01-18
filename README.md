@@ -14,7 +14,7 @@ DevRadar
   </a>
 </p>
 
-<div>
+<div align="center">
   <img src="./Demo/web.gif" alt="demo" height="417" width="800">
 </div>
 
